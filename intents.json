@@ -1,0 +1,250 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hai",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for visiting NCSM I am SMA at your Service",
+                "Good to see you again I am SMA at your Service",
+                "Hi there I am SMA at your Service, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting NCSM again",
+                "Have a nice day",
+                "Bye! Come back to museum soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                " I am Science Assistant Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "1",
+            "patterns": [
+                "Why should I get vaccinated for COVID-19?",
+                "Should I take covid vaccine",
+                "does the vaccine really help against covid",
+                "is it safe to take covid vaccine"
+            ],
+            "responses": [
+                "COVID-19 can cause serious illness or even death. There is no way to know how COVID-19 will affect you. And if you get sick, you could spread the disease to friends, family, and others around you. All COVID-19 vaccines currently available in the United States have been shown to be highly effective at preventing COVID-19 disease. Even if you still get infected after you get vaccinated, the vaccine may prevent serious illness."
+            ]
+        },
+        {
+            "tag": "2",
+            "patterns": [
+                "Can the vaccine give me COVID-19",
+                "Is there any possibility of getting affected by COVID-19 after taking vaccine",
+                "can i be affect with covid after vaccination",
+                "Getting covid-19 after vaccination"
+            ],
+            "responses": [
+                "No, the vaccine does not cause COVID-19. None of the approved COVID-19 vaccines contain the virus that causes COVID-19. It does take a few weeks after vaccination for your body to build up antibodies to protect you from the virus. That means it\u2019s possible you could be infected with the virus that causes COVID-19 just before or just after getting the vaccine and still get sick. \n"
+            ]
+        },
+        {
+            "tag": "3",
+            "patterns": [
+                "Will the shot hurt or make me sick",
+                "Is there any side effect of getting vaccinated\n",
+                "Can I be sick after vaccination ",
+                "Possibility of having fever after taking vaccine"
+            ],
+            "responses": [
+                "Some people might get sore muscles, feel tired, or have mild fever after getting the vaccine. These reactions mean the vaccine is working to help teach your body how to fight COVID-19 if you are exposed. For most people, these side effects will last no longer than a few days. If you have any concerns, call your doctor or nurse."
+            ]
+        },
+        {
+            "tag": "4",
+            "patterns": [
+                "Why do I need two COVID-19 shots",
+                "Is it required to take two vaccine shots for covid",
+                " May i know the reason behind two vaccine shots for covid",
+                "Why two shots for covid vaccine"
+            ],
+            "responses": [
+                "Some COVID-19 vaccines need two shots. The first shot gets your body ready.If you are told you need two shots, make sure that you get your second shot at the time you are told, to make sure you have full protection. "
+            ]
+        },
+        {
+            "tag": "5",
+            "patterns": [
+                "Should I get vaccinated if I already had COVID-19?\n\n",
+                "Can I take COVID-19 vaccine if I already had covid in past\n",
+                "Is it required to take a vaccine shot for a person already having covid.\n",
+                "Getting covid-19 vaccine after having covid-19\n"
+            ],
+            "responses": [
+                "Yes, you should still be vaccinated because you can become infected more than once. Although you may have some short-term natural protection (known as immunity) after recovering from COVID-19, we don\u2019t know how long this protection will last. Vaccination is the best protection, and it is safe. People who get COVID-19 can have serious illnesses, and some have terrible symptoms that continue for months. If you have had COVID-19, ask your doctor, nurse, or clinic when you should be vaccinated."
+            ]
+        },
+        {
+            "tag": "6",
+            "patterns": [
+                "Is it required to wear mask after getting two vaccine shots",
+                "\nSocial distance after vaccination\n",
+                "Wearing mask after vaccination ",
+                "Do I still need to wear a mask and socially distance after getting the vaccine?"
+            ],
+            "responses": [
+                "Yes. While experts learn more about the protection that COVID-19 vaccines provide under real-life conditions, it will be important for everyone to continue using all the tools available to us to help stop this pandemic, like wearing a mask over your nose and mouth, washing your hands often, and staying at least 6 feet away from people who don\u2019t live with you.\n"
+            ]
+        },
+        {
+            "tag": "7",
+            "patterns": [
+                "What is vaccine",
+                "Definition of vaccine \n",
+                "Please tell me about vaccine\n",
+                "May I know about vaccine\n"
+            ],
+            "responses": [
+                "Vaccination is a simple, safe, and effective way of protecting you against harmful diseases, before you come into contact with them. It uses your body\u2019s natural defenses to build resistance to specific infections and makes your immune system stronger Vaccines train your immune system to create antibodies, just as it does when it\u2019s exposed to a disease. However, because vaccines contain only killed or weakened forms of germs like viruses or bacteria, they do not cause the disease or put you at risk of its complications."
+            ]
+        },
+        {
+            "tag": "8",
+            "patterns": [
+                "How does vaccine works?",
+                "Working of vaccine",
+                "Please tell me how vaccine works?",
+                "Working principle of vaccine"
+            ],
+            "responses": [
+                "Vaccines reduce risks of getting a disease by working with your body\u2019s natural defenses to build protection. When you get a vaccine, your immune system responds. It: Recognizes the invading germ, such as the virus or bacteria. Produces antibodies. Antibodies are proteins produced naturally by the immune system to fight disease. Remembers the disease and how to fight it. If you are then exposed to the germ in the future, your immune system can quickly destroy it before you become unwell. The vaccine is therefore a safe and clever way to produce an immune response in the body, without causing illness. Our immune systems are designed to remember. Once exposed to one or more doses of a vaccine, we typically remain protected against a disease for years, decades or even a lifetime. This is what makes vaccines so effective. Rather than treating a disease after it occurs, vaccines prevent us in the first instance from getting sick."
+            ]
+        },
+        {
+            "tag": "9",
+            "patterns": [
+                "What is inside vaccine",
+                "What is there in vaccine\n",
+                "What are  ingredients of a vaccine\n",
+                "Components of vaccine\n"
+            ],
+            "responses": [
+                "All the ingredients of a vaccine play an important role in ensuring a vaccine is safe and effective. Some of these include: The antigen. This is a killed or weakened form of a virus or bacteria, which trains our bodies to recognize and fight the disease if we encounter it in the future. Adjuvants, which help to boost our immune response. This means they help vaccines to work better. Preservatives, which ensure a vaccine stays effective. Stabilisers, which protect the vaccine during storage and transportation. Vaccine ingredients can look unfamiliar when they are listed on a label. However, many of the components used in vaccines occur naturally in the body, in the environment, and in the foods we eat. All of the ingredients in vaccines \u2013 as well as the vaccines themselves - are thoroughly tested and monitored to ensure they are safe."
+            ]
+        },
+        {
+            "tag": "10",
+            "patterns": [
+                "What are the different Type of vaccine\n",
+                "How many type of vaccine are there\n",
+                "Vaccine type",
+                "Please tell me about different Type of vaccine\n"
+            ],
+            "responses": [
+                "There are several different types of vaccines. Each type is designed to teach your immune system how to fight off certain kinds of germs\u2014and the serious diseases they cause. When scientists create vaccines, they consider: How your immune system responds to the germ, Who needs to be vaccinated against the germ,The best technology or approach to create the vaccine. Based on a number of these factors, scientists decide which type of vaccine they will make. There are several types of vaccines, including: Inactivated vaccines, Live-attenuated vaccines,Messenger RNA (mRNA) vaccines, Subunit, recombinant, polysaccharide, and conjugate vaccines, Toxoid vaccines, Viral vector vaccines\n"
+            ]
+        },
+        {
+            "tag": "11",
+            "patterns": [
+                "Which COVID-19 vaccines are licensed in India?",
+                "What are the COVID-19 vaccine available in india\n",
+                "Different type of covid vaccine available in india",
+                "Different type of covid vaccine available in india"
+            ],
+            "responses": [
+                "Two vaccines were granted emergency use authorization by the Central Drugs Standard Control Organization (CDSCO) in India, Covishield (AstraZeneca's vaccine manufactured by Serum Institute of India) and Covaxin (manufactured by Bharat Biotech Limited). Sputnik - V has been granted EUA in the month of April 2021.\n"
+            ]
+        },
+        {
+            "tag": "12",
+            "patterns": [
+                "What is Emergency Use Authorization (EUA)/ Permission for restricted use?\n",
+                "Covid-19 is under Emergency Use Authorization or EAU?\n",
+                "",
+                ""
+            ],
+            "responses": [
+                "Emergency Use Authorization (EUA) is a regulatory mechanism to allow the use of vaccines and medicines to prevent and/or reduce the impact of life-threatening diseases or conditions as caused by COVID-19. However, before grant of the EUA, rigorous assessments of laboratory and clinical trial data, including data on quality, safety, production of protective antibodies and efficacy is conducted. Safety is a particularly critical aspect of this scrutiny and a risk-versus- benefit evaluation is done in the context of a public health emergency. Full licensure is obtained when the manufacturer submits the complete data. EUA by Indian regulators is aligned with global guidelines."
+            ]
+        },
+        {
+            "tag": "13",
+            "patterns": [
+                "Is the EUA a new process introduced for COVID-19 Vaccine?\n",
+                "Emergency use of vaccine is new method",
+                "",
+                ""
+            ],
+            "responses": [
+                "Concept of EUA always existed to save the lives of people all over the world with vaccine and medicines for life threatening diseases while companies continue to obtain additional safety and effectiveness information to enable full licensure. Previously, EUAs have been granted to vaccines for outbreaks due to Anthrax, Ebola, Enterovirus, H7N9 Influenza, and Middle East Respiratory Syndrome. As of January 2021, nine COVID-19 vaccines were in emergency use in numerous countries around the globe."
+            ]
+        },
+        {
+            "tag": "14",
+            "patterns": [
+                "What is Phase I, II and III of clinical trial for a vaccine?\n",
+                "What are the phases of trial",
+                "vaccine trials ",
+                ""
+            ],
+            "responses": [
+                "Vaccine trial phases includes Pre-clinical: Vaccine development in laboratory animals.Phase 1 Clinical trial (small number of participants): Assess vaccine safety, immune response and determine right dosage (short duration). Phase 2 Clinical trial (few hundred participants): Assess safety and the ability of the vaccine to generate an immune response (short duration). Phase 3 Clinical trial (thousands of participants): Determine vaccine effectiveness against the disease and safety in a larger group of people (duration 1-2 years)"
+            ]
+        },
+        {
+            "tag": "15",
+            "patterns": [
+                "Why covid vaccination is not provided to children who are usual target?\n",
+                "",
+                "",
+                ""
+            ],
+            "responses": [
+                "COVID-19 affects all age groups; however, morbidity & mortality is several times higher in adults particularly in those above the age of 50 years. Children have either asymptomatic or mild infection. The general practice is to first evaluate any new vaccine in older population and then age reduction is done to assess the safety and effectiveness in paediatric population. The currently available vaccines have not been evaluated in children so far. There are some clinical trials now underway to test the effectiveness and safety of the COVID-19 vaccines in children.\n"
+            ]
+        },
+        {
+            "tag": "16",
+            "patterns": [
+                "What technology has been used in development of the currently available two vaccines in India?",
+                "vaccine technology used for development in india",
+                "",
+                ""
+            ],
+            "responses": [
+                "Covishield vaccine, manufactured by the Serum Institute of India, is a Viral Vector-based Technology which is also used to manufacture Ebola vaccine.Covaxin vaccine, manufactured by the Bharat Biotech, is a Whole-virion Inactivated Coronavirus Vaccine which is also used to manufacture vaccines like Influenza, Rabies and Hepatitis- A."
+            ]
+        },
+        {
+            "tag": "20",
+            "patterns": [
+                "How COVID-19 vaccine is developed so fast?\n",
+                "Why it took less time to develop covid-19 vaccine?\n",
+                "Is there any compromise in developing covid-19 vaccine rapidly?\n",
+                "What made is possible to develop COVID-19 vaccine so rapidly?"
+            ],
+            "responses": [
+                "Developing a vaccine generally involves years of research. First, we need a vaccine candidate that is evaluated in animals for its safety and efficacy. After a vaccine candidate passes a pre- clinical trial, it enters the clinical trial phase. While scientists have worked round the clock in the laboratory, even regulatory approvals which used to take several months have been fast tracked. It helped eliminate all the time lapses between the pre-clinical and clinical trial stages. Earlier, the vaccine development involved a series of steps, but in the case of the coronavirus vaccine, the scientists and regulators worked in tandem, accelerating the whole process without compromises on any protocols and any step."
+            ]
+        }
+    ]
+}
